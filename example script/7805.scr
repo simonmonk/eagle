@@ -1,0 +1,17 @@
+# 7805 Voltage Regulator Module
+
+add 7805T@linear (-1 0)
+add C-US050-030X075@rcl (-1.6 -0.3) 
+add C-US050-030X075@rcl (-0.4 -0.3)
+value c1 330n
+value c2 100n
+net (-1.4 0) (-1.6 -0.2)
+net (-0.6 0) (-0.4 -0.2)
+add GND@supply1 (-0.2 -0.6)
+add VCC@supply1 (-0.2 0.4)
+net (-1.6 -0.5) (-1 -0.3)
+net (-1 -0.5) (-0.4 -0.5)
+net (-0.4 -0.5) (-0.2 -0.5)
+net (-0.4 0) (-0.2 0.3)
+group all
+move (>0 0)
